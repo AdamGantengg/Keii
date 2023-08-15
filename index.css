@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lilita+One&display=swap');
+
+* {
+    margin:0; 
+    padding:0;
+}
+
+body{
+   background-color: #a20893;
+}
+
+nav {
+   margin:auto;
+   text-align: center;
+   width: 100%;
+   font-family: arial;
+} 
+
+nav ul {
+   background:#e34bd4;
+   padding: 0 20px;
+   list-style: none;
+   position: relative;
+   display: inline-table;
+   width: 100%;
+}
+
+nav ul li{
+   align-items:center;
+   display: inline-block;
+}
+
+nav ul li:hover{
+   background:#f600b4;
+}
+
+nav ul li:hover a{
+    color:#000;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+h1{
+   font-family: 'Caveat', cursive;
+   color: pink;
+   text-align: center;
+}
+
+.Biodata{
+   margin-top: 20px;
+   padding-left: 20px;
+}
+
+table{
+   background-color: aliceblue;
+}
+
+p{
+   color: whitesmoke;
+   margin-top: 100px;
+   font-family: 'Caveat', cursive;
+   text-align: center;
+   justify-content: center;
+   font-size: 250%;
+   display: flex;
+   height: 350px;
+}
+
+.flower{
+   color: whitesmoke;
+   margin-top: -100px;
+   font-family: 'Caveat', cursive;
+   text-align: center;
+   justify-content: center;
+   font-size: 200%;
+   display: flex;
+   text-decoration: none;
+}
